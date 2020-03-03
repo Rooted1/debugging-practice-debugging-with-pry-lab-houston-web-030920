@@ -15,7 +15,7 @@ end
 
 def greet_crew (crew) 
   crew.each { |crew_member| 
-    return "Hello #{crew_member}."
+    p "Hello #{crew_member}."
   }
 end
 
